@@ -7,5 +7,5 @@ class Comment(models.Model):
     video_id = models.CharField(max_length=100)
     comment = models.CharField(max_length=500)
     replies = models.CharField(max_length=500)
-    likes = models.IntegerField(max_length=None)
-    dislikes = models.IntegerField(max_length=None)
+    likes = models.IntegerField()
+    dislikes = models.IntegerField()
